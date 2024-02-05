@@ -1,0 +1,53 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000207;
+}
+
+.stopwatch {
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    background-color: #173c42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.controls button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+.controls button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+}
+
+.display {
+    color: whitesmoke;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.laps {
+    color:whitesmoke;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lapItem {
+    font-size: 25px;
+    margin: 5px;
+}
